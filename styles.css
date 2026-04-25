@@ -25,6 +25,23 @@ body {
     height: auto;
 }
 
+.clicker-upgrade {
+    width: 65px;
+    height: auto;
+}
+
+.upgrade {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;         /*note, justify content can do the even space thingy we like*/
+    width: 350px;
+    height: 60px;
+    border: 5px solid hotpink;
+    padding: 10px 20px;
+    border-radius: 15px;
+    position: relative;
+}
+
 .bow-image:hover {
     opacity: 0.9;
     cursor: pointer;
@@ -33,4 +50,25 @@ body {
 .bow-image:active {
     opacity: 0.8;
     transform:  scale(1.02);
+}
+
+.bow-img {
+    width: 20px;
+    height: 20px;    
+}
+
+.cost-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.mid-section p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.next-level-info {
+    position: absolute;
+    right: -100px;
 }
