@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #4d4848;
+    color: white;
+    user-select: none;
+}
+
+.main{
+    display: flex;
+    gap: 200px;
+}
+
+.left h3{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.bow-image {
+    width: 350px;
+    height: auto;
+}
+
+.bow-image:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.bow-image:active {
+    opacity: 0.8;
+    transform:  scale(1.02);
+}
